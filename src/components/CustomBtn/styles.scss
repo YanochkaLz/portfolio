@@ -1,0 +1,20 @@
+.btn {
+	width: fit-content;
+	padding: calc(var(--index) * 0.2) calc(var(--index) * 0.5);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	border: 1px solid #fff;
+	border-radius: var(--border-radius);
+	text-decoration: none;
+	font-size: calc(var(--index) * 0.7);
+
+	img {
+		height: var(--index);
+	}
+
+	&:hover {
+		box-shadow: 0 0 5px 5px var(--brown-color);
+	}
+}
